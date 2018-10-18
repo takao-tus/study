@@ -1,6 +1,6 @@
-#Ethereum
+# Ethereum
 
-##Ethereumのプライベート環境構築
+## Ethereumのプライベート環境構築
 
 mac版
 
