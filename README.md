@@ -11,23 +11,24 @@ linux版
 
 go 入れる必要あり（1.7推奨）
 
-    wget https://storage.googleapis.com/golang/go1.7.linux-armv6l.tar.gz
+`wget https://storage.googleapis.com/golang/go1.7.linux-armv6l.tar.gz`
     
 解凍
 
-    sudo tar -C /usr/local -xzf go1.7.linux-armv6l.tar.gz
+`sudo tar -C /usr/local -xzf go1.7.linux-armv6l.tar.gz`
+
 パス入れる
 
-    vim ~/.bashrc
+`vim ~/.bashrc`
 
 文末に追加
 
-    export PATH=$PATH:/usr/local/go/bin
+`export PATH=$PATH:/usr/local/go/bin`
 
 パスを反映
 
 
-    source .bashrc
+`source .bashrc`
 
 geth install
 
@@ -64,7 +65,7 @@ genesis.jsを作る
 
 初期化
 
-    geth --datadir /home/pi/workspace/private_net init /home/pi/workspace/private_net/genesis.json
+`geth --datadir /home/pi/workspace/private_net init /home/pi/workspace/private_net/genesis.json`
 
 ディレクトリーないにkeystoreとgethが追加される
 
