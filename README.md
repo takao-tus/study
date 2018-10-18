@@ -2,12 +2,12 @@
 
 ##Ethereumのプライベート環境構築
 
-mac
+mac版
 
     brew tap ethereum/ethereum
     brew install ethereum
 
-linux
+linux版
 
 go 入れる必要あり（1.7推奨）
 
@@ -23,6 +23,7 @@ vim ~/.bashrc
 文末に追加
 
 export PATH=$PATH:/usr/local/go/bin
+
 パスを反映
 
 
@@ -30,6 +31,6 @@ source .bashrc
 
 geth install
 
-　wget https://gethstore.blob.core.windows.net/builds/geth-linux-arm7-1.8.14-316fc7ec.tar.gz
+    wget https://gethstore.blob.core.windows.net/builds/geth-linux-arm7-1.8.14-316fc7ec.tar.gz
     sudo tar -C /usr/local -xzf geth-linux-arm7-1.8.14-316fc7ec.tar.gz
     sudo ln -s /usr/local/geth-linux-arm7-1.8.14-316fc7ec /usr/local/geth
