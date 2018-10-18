@@ -38,7 +38,7 @@ geth install
 
 参考<https://qiita.com/umidachi/items/1be8262e41cb32cab369>
 
-##Ethereumプライベートネット立ち上げ
+## ethereumプライベートネット立ち上げ
 フォルダを作る
     mkdir private_net
     cd privatenet
