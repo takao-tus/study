@@ -39,7 +39,7 @@ geth install
 
 ##Ethereumプライベートネット立ち上げ
 フォルダを作る
-    mkdir privatenet
+    mkdir private_net
     cd privatenet
 
 genesis.jsを作る
@@ -62,3 +62,12 @@ genesis.jsを作る
         "timestamp"  : "0x00"
     }
 
+初期化
+
+    geth --datadir /home/pi/workspace/private_net init /home/pi/workspace/private_net/genesis.json
+
+ディレクトリーないにkeystoreとgethが追加される
+
+プライベートネット立ち上げ
+
+`geth --datadir /home/pi/workspace/private_net -networkid 65000 --rpc --rpcaddr "localhost" --rpcport "8545" --rpcapi eth,web3,net,personal --rpccorsdomain "*"  --nodiscover console`
