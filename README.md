@@ -43,6 +43,7 @@ geth install
     cd privatenet
 
 genesis.jsを作る
+
     {
         "config": {
             "chainId": 65000,
