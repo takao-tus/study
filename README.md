@@ -36,7 +36,7 @@ geth install
     sudo tar -C /usr/local -xzf geth-linux-arm7-1.8.14-316fc7ec.tar.gz
     sudo ln -s /usr/local/geth-linux-arm7-1.8.14-316fc7ec /usr/local/geth
 
-[参照]https://qiita.com/umidachi/items/1be8262e41cb32cab369
+[参照]:https://qiita.com/umidachi/items/1be8262e41cb32cab369
 
 ## ethereumプライベートネット立ち上げ
 フォルダを作る
